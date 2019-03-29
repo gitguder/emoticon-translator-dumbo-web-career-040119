@@ -1,5 +1,5 @@
 # require modules here
-require 'pry'
+require 'yaml'
 
 def load_library(file_path)
   library = { "get_meaning" => {}, "get_emoticon" => {} }
